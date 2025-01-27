@@ -16,8 +16,8 @@ def count_multiples(a, b, c):
     else:
         start = b
         end = a
-    multiples_up_to_end = end // c
-    multiples_up_to_start = (start - 1) // c
-    count = multiples_up_to_end - multiples_up_to_start
+    multiples_end = end // c
+    multiples_start = (start - 1) // c
+    count = multiples_end - multiples_start
     return count
 
